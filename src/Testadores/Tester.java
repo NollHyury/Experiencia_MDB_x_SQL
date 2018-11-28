@@ -13,8 +13,13 @@ public class Tester {
 		// TODO Auto-generated method stub
 		MDBDAO mdb = new MDBDAO();
 		SQLData sql = new SQLData();
-		System.out.println(mdb.getNomeDoBanco());
+		Experimento experimentoSql = new Experimento(sql);
+		Experimento experimentoMdb = new Experimento(mdb);
 		
+		experimentoMdb.InserirVariasCoordenadas(500);
+		//experimentoMdb.procurarCoordenada(117.11678, 40.14313);
+		experimentoSql.InserirVariasCoordenadas(500);
+		//experimentoSql.procurarCoordenada(116.52934, 40.04491);
 		
 		
 		
