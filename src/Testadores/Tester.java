@@ -13,12 +13,9 @@ public class Tester {
 		// TODO Auto-generated method stub
 		MDBDAO mdb = new MDBDAO();
 		SQLData sql = new SQLData();
+		System.out.println(mdb.getNomeDoBanco());
 		
 		
-		Experimento master = new Experimento(sql);
-		System.out.println(master.procurarCoordenada(116.6551,40.22203));
-		
-	
 		
 		
 		
