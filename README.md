@@ -1,2 +1,2 @@
-# Experiencia_MDB_x_SQL
-Experiencia_MDB_x_SQL
+# Experiencia MongoDB vs MySQL
+
